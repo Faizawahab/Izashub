@@ -1,0 +1,42 @@
+#navlinks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    column-gap: 20px;
+    height: 50px;
+    align-items: center;
+
+    
+}
+
+#navlinks a {
+    text-decoration: none;
+    color: black;
+    
+}
+    
+.hero{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: aqua;
+    
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+.herocontent{
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+    margin-top: 30%;
+}
